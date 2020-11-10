@@ -25,7 +25,7 @@ test('renders the story container with a story', async () => {
   const { getByText, queryByTestId } = render(<StoriesContainer />);
   await waitForElement(() => [
     expect(getByText('Hacker News Stories')).toBeTruthy(),
-    expect(getByText('Tarnished: Google Responds')).toBeTruthy(),
-    expect(queryByTestId('story-by').textContent).toEqual('By: Karl Hadwen'),
+    expect(getByText('Tarnished: Google Responds to Serious Chrome Vulnerability')).toBeTruthy(),
+    expect(queryByTestId('story-by').textContent).toEqual('By: Nathaniel Mott'),
   ]);
 });

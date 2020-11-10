@@ -1,8 +1,8 @@
 export const singularStory = {
-  by: 'Karl Hadwen',
+  by: 'Nathaniel Mott',
   id: 1,
   time: 1567209822,
-  title: 'Tarnished: Google Responds',
+  title: 'Tarnished: Google Responds to Serious Chrome Vulnerability',
   url: 'https://www.tomshardware.com/news/google-responds-blink-chrome-vulnerability,40281.html',
 };
 

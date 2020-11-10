@@ -18,8 +18,8 @@ test('renders the story component', async () => {
 
   const { getByText, queryByTestId } = render(<Story story-id="1" />);
   await waitForElement(() => [
-    queryByTestId('story'),
-    expect(getByText('Tarnished: Google Responds')).toBeTruthy(),
-    expect(queryByTestId('story-by').textContent).toEqual('By: Karl Hadwen'),
+    expect(queryByTestId('story')).toBeTruthy(),
+    expect(getByText('Tarnished: Google Responds to Serious Chrome Vulnerability')).toBeTruthy(),
+    expect(queryByTestId('story-by').textContent).toEqual('By: Nathaniel Mott'),
   ]);
 });
