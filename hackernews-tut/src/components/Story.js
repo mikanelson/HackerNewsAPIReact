@@ -3,7 +3,7 @@ import {getStory} from '../services/hnApi';
 import {StoryWrapper, StoryTitle, StoryMeta, StoryMetaElement} from '../styles/StoryStyles';
 import {mapTime} from '../mappers/mapTime';
 
-export const Story = ({storyId}) => {
+export const Story = memo(function Story ({storyId}) {
   const [story, setStory] = useState({});
 
   useEffect(() => {
@@ -25,4 +25,4 @@ export const Story = ({storyId}) => {
     </StoryMeta>
     </StoryWrapper>
   ) : null;
-}
+});
