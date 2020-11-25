@@ -27,7 +27,6 @@ The goal of this project was to learn how to use APIs with React.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [React](https://reactjs.org/)
 
 ## Getting Started
